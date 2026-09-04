@@ -1,1 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #e60012; /* Vermelho clássico */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #000;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-left: 6px solid #ffcc00; /* Amarelo dos sapatos */
+}
+
+h2 {
+    color: #000;
+    margin-top: 0;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #000;
+    color: white;
+}
