@@ -1,5 +1,4 @@
 
-/* Reset básico e caixa flexível */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,15 +7,13 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: #f7d117; /* Amarelo vibrante dos sapatos do Mickey */
+    background-color: #f7d117;
     color: #111111;
     line-height: 1.6;
-    padding-bottom: 20px;
 }
 
-/* Cabeçalho inspirado nas cores do personagem */
 header {
-    background-color: #e60012; /* Vermelho clássico */
+    background-color: #e60012;
     color: #ffffff;
     text-align: center;
     padding: 40px 20px;
@@ -37,14 +34,12 @@ header p {
     margin-top: 8px;
 }
 
-/* Container centralizado */
 .container {
     max-width: 850px;
     margin: 30px auto;
     padding: 0 20px;
 }
 
-/* Cards com estética de quadrinhos / animação (Bordas fortes) */
 .card {
     background-color: #ffffff;
     border: 4px solid #000000;
@@ -68,15 +63,14 @@ header p {
     letter-spacing: 1px;
 }
 
-/* Lista estilizada */
 .custom-list {
     list-style: none;
 }
 
 .custom-list li {
     position: relative;
-    padding-left: 28px;
-    margin-bottom: 14px;
+    padding-left: 25px;
+    margin-bottom: 12px;
     font-size: 1.05rem;
 }
 
@@ -89,7 +83,6 @@ header p {
     top: -2px;
 }
 
-/* Grid de botões da Turma do Mickey */
 .friends-grid {
     display: flex;
     flex-wrap: wrap;
@@ -114,7 +107,6 @@ header p {
     cursor: default;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     padding: 25px 15px;
